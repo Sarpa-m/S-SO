@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Escalonador">
+      <UniqueIdentifier>{3da3c61a-eee5-4d43-8639-234426e617c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Escalonador">
+      <UniqueIdentifier>{36103710-72c2-4e0b-af54-0208674dc692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Memoria">
+      <UniqueIdentifier>{c0139628-9dc6-4227-8d6e-a5558833eacb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Memoria">
+      <UniqueIdentifier>{8aa0d025-17f5-4e48-9e44-ac21cf6811dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="S SO.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Processo.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SistemaOperacional.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="EscalonadorPrioridade.cpp">
+      <Filter>Arquivos de Origem\Escalonador</Filter>
+    </ClCompile>
+    <ClCompile Include="EscalonadorRoundRobin.cpp">
+      <Filter>Arquivos de Origem\Escalonador</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoriaPaginada.cpp">
+      <Filter>Arquivos de Origem\Memoria</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoriaParticoesFixas.cpp">
+      <Filter>Arquivos de Origem\Memoria</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Processo.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SistemaOperacional.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Escalonador.hpp">
+      <Filter>Arquivos de Cabeçalho\Escalonador</Filter>
+    </ClInclude>
+    <ClInclude Include="EscalonadorRoundRobin.hpp">
+      <Filter>Arquivos de Cabeçalho\Escalonador</Filter>
+    </ClInclude>
+    <ClInclude Include="EscalonadorPrioridade.hpp">
+      <Filter>Arquivos de Cabeçalho\Escalonador</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoriaParticoesFixas.hpp">
+      <Filter>Arquivos de Cabeçalho\Memoria</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoriaPaginada.hpp">
+      <Filter>Arquivos de Cabeçalho\Memoria</Filter>
+    </ClInclude>
+    <ClInclude Include="GerenciadorMemoria.hpp">
+      <Filter>Arquivos de Cabeçalho\Memoria</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
